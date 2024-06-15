@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoothie.BaseHttpClient.Package", "Smoothie.BaseHttpClient.Package\Smoothie.BaseHttpClient.Package.csproj", "{85C8AA09-5726-422D-BD42-7C59A2613D87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoothie.BaseHttpClient.Domain", "Smoothie.BaseHttpClient.Domain\Smoothie.BaseHttpClient.Domain.csproj", "{7301A841-5D47-46C4-8D2F-F38FA4D9202B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoothie.BaseHttpClient.Infrastructure", "Smoothie.BaseHttpClient.Infrastructure\Smoothie.BaseHttpClient.Infrastructure.csproj", "{901BCB58-DE0A-4CE7-876E-D13066D4906E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smoothie.BaseHttpClient.Tests", "Smoothie.BaseHttpClient.Tests\Smoothie.BaseHttpClient.Tests.csproj", "{1FA7E20C-7E35-48CE-A3FE-740A46AFDD22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{85C8AA09-5726-422D-BD42-7C59A2613D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85C8AA09-5726-422D-BD42-7C59A2613D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85C8AA09-5726-422D-BD42-7C59A2613D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7301A841-5D47-46C4-8D2F-F38FA4D9202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7301A841-5D47-46C4-8D2F-F38FA4D9202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7301A841-5D47-46C4-8D2F-F38FA4D9202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7301A841-5D47-46C4-8D2F-F38FA4D9202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901BCB58-DE0A-4CE7-876E-D13066D4906E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901BCB58-DE0A-4CE7-876E-D13066D4906E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901BCB58-DE0A-4CE7-876E-D13066D4906E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901BCB58-DE0A-4CE7-876E-D13066D4906E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA7E20C-7E35-48CE-A3FE-740A46AFDD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA7E20C-7E35-48CE-A3FE-740A46AFDD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA7E20C-7E35-48CE-A3FE-740A46AFDD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA7E20C-7E35-48CE-A3FE-740A46AFDD22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
